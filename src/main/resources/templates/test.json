@@ -1,0 +1,34 @@
+{
+	"total": 2,
+	"rows": [
+		{
+			"id": "esys",
+			"name": "系统管理",
+			"no": "00",
+			"icon": null,
+			"url": null,
+			"parent": null,
+			"children": [],
+			"parentName": ""
+		},
+		{
+			"id": "esys-menu",
+			"name": "菜单",
+			"no": "0010",
+			"icon": null,
+			"url": "esys/menu",
+			"parent": {
+				"id": "esys",
+				"name": "系统管理",
+				"no": null,
+				"icon": null,
+				"url": null,
+				"parent": null,
+				"children": [],
+				"parentName": ""
+			},
+			"children": [],
+			"parentName": "系统管理"
+		}
+	]
+}
